@@ -12,9 +12,11 @@ The initial pattern constitutes the seed of the system. The first generation is 
 
 ## Instructions to run the code
 In the target/ directory, there's a .jar file that was built using maven. To run it from commandline:
+
 java -jar GameOfLife-0.0.1-SNAPSHOT.jar
       
 To run the tests (in the directory that contains pom.xml):
+
 mvn test
       
 This is assuming Java and Maven are installed and setup on your local machine. 
